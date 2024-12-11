@@ -92,6 +92,9 @@ nav h2 {
   justify-content:center;
   flex-direction: column;
 }
+.hero_section h1{
+  color: white;
+}
 .hero_image{
   width: 1344px;
   height: 672px;
