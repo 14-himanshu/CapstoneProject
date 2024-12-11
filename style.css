@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Staatliches&display=swap");
+
+/* "Inria Sans", sans-serif */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inria Sans", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.navbar {
+  width: 93.333%;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgb(0, 0, 0);
+  /* padding-top: 24px; */
+}
+nav {
+  width: 1080px;
+  height: 72px;
+  background:#170506;
+;
+  backdrop-filter: blur(96px);
+  box-shadow: 0px 4px 24px 0px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 16px;
+}
+nav ul {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 214px;
+  height: 24px;
+  gap: 32px;
+}
+ul li {
+  background-color: transparent;
+  color: white;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 17px;
+}
+nav h1 {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  line-height: 42px;
+  gap: 12px;
+  width: 156px;
+  height: 35px;
+  font-size: 42px;
+  margin-left: -9%;
+  letter-spacing: -0.04em;
+}
+nav h2 {
+  font-family: "Inria Sans", sans-serif;
+  background-color: transparent;
+  color: #ffffff;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.content{
+  width: 1344px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.her0_section{
+  width: 1344px ;
+  height: 1032px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.hero_image{
+  width: 1344px;
+  height: 672px;
+  background: url("assets/hero_img.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 28px;
+  border: 1.5px;
+}
