@@ -129,8 +129,11 @@ nav h2 {
   width: 1344px;
   border-bottom: 1.5px ;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: -40px;
+  gap: 48px;
 }
 .card{
   height: 333px;
@@ -171,5 +174,4 @@ nav h2 {
   line-height: 24px;
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
-
 }
