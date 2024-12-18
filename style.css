@@ -233,3 +233,88 @@ nav h2 {
  border-radius: 8px;
  margin-top:-100px ;
 }
+.bringing_the_neon{
+  width: 1344px;
+  height: 400px;
+  padding: 96px 0;
+  gap: 0px;
+  border: 0px 0px 1.5px 0px;
+  display: flex;
+  justify-content: center;
+
+}
+.bringing_the_neon p{
+  width: 900px;
+  height: 208px;
+  max-width: 900px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Red Hat Display;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.our_impact{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width:1344px;
+  height:408px;
+  padding: 48px 0;
+  gap: 48px;
+}
+.our_impact p{
+  width: 648px;
+ height: 32px;
+ font-family: Red Hat Display;
+font-size: 28px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.our_impact_right{
+  width:648px;
+  height: 312px;
+}
+.row{
+  width: 648px;
+  height:156px;
+  gap: 48px;
+  display: flex;
+  
+}
+.row_content{
+  width:300px;
+  height:156px;
+  padding: 24px 0px 48px 0px;
+  gap: 8px;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.16)
+
+}
+.row_content h1{
+  width: 300px;
+  height: 52px;
+  gap: 0px;
+  font-family: Red Hat Display;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -1%;
+  color: rgba(255, 255, 255, 1);
+}
+.row_content p{
+  width: 300px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
