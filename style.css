@@ -172,6 +172,7 @@ nav h2 {
   width: 95%;
   height: 900px;
   left: -96px;
+  background: radial-gradient(rgba(0, 0, 0, 0.7),rgba(193, 29, 29, 0.042));
   gap: 0px;
   display: flex;
   align-items: center;
