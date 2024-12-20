@@ -169,7 +169,7 @@ nav h2 {
   color: rgba(255, 255, 255, 0.6);
 }
 .our_work{
-  width: 1536px;
+  width: 95%;
   height: 900px;
   left: -96px;
   gap: 0px;
@@ -179,7 +179,7 @@ nav h2 {
   border-bottom: 1.5px;
 }
 .work_text{
-  width:624px;
+  width:50%;
   height:244px;
   top: 328px;
   gap: 48px;
@@ -187,7 +187,7 @@ nav h2 {
   top: 328px;
 }
 .work_image{
-  width: 900px;
+  width: 50%;
   height: 700px;
   gap: 0px;
   border: 1.5px 0px 0px 0px;
